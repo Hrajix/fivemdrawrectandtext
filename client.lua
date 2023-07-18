@@ -13,9 +13,9 @@ local drawcolor = {
     a = 255
 }
 
-Citizen.CreateThread(function() -- do not touch this
+CreateThread(function() -- do not touch this
     while true do -- do not touch this
-        Citizen.Wait(0)  -- do not touch this
+        Wait(0)  -- do not touch this
     -- DrawText
     SetTextFont(2) -- 0 - 7
     SetTextScale(0.7, 0.7)
